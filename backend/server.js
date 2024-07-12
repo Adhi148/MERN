@@ -16,7 +16,7 @@ const __dirname = dirname(__filename);
 
 
 const app = express();
-const PORT = process.env.PORT || 9000; // Node.js server port
+const PORT = process.env.PORT || 7000; // Node.js server port
 
 // Load environment variables
 dotenv.config();
